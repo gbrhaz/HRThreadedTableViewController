@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6984FB018DB628F0003A227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FAF18DB628F0003A227 /* Foundation.framework */; };
+		C6984FB218DB628F0003A227 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FB118DB628F0003A227 /* CoreGraphics.framework */; };
+		C6984FB418DB628F0003A227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FB318DB628F0003A227 /* UIKit.framework */; };
+		C6984FBA18DB628F0003A227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6984FB818DB628F0003A227 /* InfoPlist.strings */; };
+		C6984FBC18DB628F0003A227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FBB18DB628F0003A227 /* main.m */; };
+		C6984FC018DB628F0003A227 /* HRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FBF18DB628F0003A227 /* HRAppDelegate.m */; };
+		C6984FC218DB628F0003A227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6984FC118DB628F0003A227 /* Images.xcassets */; };
+		C6984FC918DB628F0003A227 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FC818DB628F0003A227 /* XCTest.framework */; };
+		C6984FCA18DB628F0003A227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FAF18DB628F0003A227 /* Foundation.framework */; };
+		C6984FCB18DB628F0003A227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6984FB318DB628F0003A227 /* UIKit.framework */; };
+		C6984FD318DB628F0003A227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6984FD118DB628F0003A227 /* InfoPlist.strings */; };
+		C6984FD518DB62900003A227 /* HRThreadedTableViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FD418DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.m */; };
+		C6984FE718DB62DD0003A227 /* HRSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FE018DB62DD0003A227 /* HRSectionHeaderView.m */; };
+		C6984FE818DB62DD0003A227 /* HRThreadedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FE218DB62DD0003A227 /* HRThreadedItem.m */; };
+		C6984FE918DB62DD0003A227 /* HRThreadedItemDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FE418DB62DD0003A227 /* HRThreadedItemDataModel.m */; };
+		C6984FEA18DB62DD0003A227 /* HRThreadedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6984FE618DB62DD0003A227 /* HRThreadedTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6984FCC18DB628F0003A227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6984FA418DB628F0003A227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6984FAB18DB628F0003A227;
+			remoteInfo = HRThreadedTableViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6984FAC18DB628F0003A227 /* HRThreadedTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRThreadedTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6984FAF18DB628F0003A227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6984FB118DB628F0003A227 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6984FB318DB628F0003A227 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6984FB718DB628F0003A227 /* HRThreadedTableViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRThreadedTableViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		C6984FB918DB628F0003A227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6984FBB18DB628F0003A227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6984FBD18DB628F0003A227 /* HRThreadedTableViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HRThreadedTableViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C6984FBE18DB628F0003A227 /* HRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRAppDelegate.h; sourceTree = "<group>"; };
+		C6984FBF18DB628F0003A227 /* HRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRAppDelegate.m; sourceTree = "<group>"; };
+		C6984FC118DB628F0003A227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6984FC718DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRThreadedTableViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6984FC818DB628F0003A227 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6984FD018DB628F0003A227 /* HRThreadedTableViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRThreadedTableViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C6984FD218DB628F0003A227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6984FD418DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRThreadedTableViewControllerDemoTests.m; sourceTree = "<group>"; };
+		C6984FDF18DB62DD0003A227 /* HRSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRSectionHeaderView.h; path = ../../Code/HRSectionHeaderView.h; sourceTree = "<group>"; };
+		C6984FE018DB62DD0003A227 /* HRSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRSectionHeaderView.m; path = ../../Code/HRSectionHeaderView.m; sourceTree = "<group>"; };
+		C6984FE118DB62DD0003A227 /* HRThreadedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRThreadedItem.h; path = ../../Code/HRThreadedItem.h; sourceTree = "<group>"; };
+		C6984FE218DB62DD0003A227 /* HRThreadedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRThreadedItem.m; path = ../../Code/HRThreadedItem.m; sourceTree = "<group>"; };
+		C6984FE318DB62DD0003A227 /* HRThreadedItemDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRThreadedItemDataModel.h; path = ../../Code/HRThreadedItemDataModel.h; sourceTree = "<group>"; };
+		C6984FE418DB62DD0003A227 /* HRThreadedItemDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRThreadedItemDataModel.m; path = ../../Code/HRThreadedItemDataModel.m; sourceTree = "<group>"; };
+		C6984FE518DB62DD0003A227 /* HRThreadedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRThreadedTableViewController.h; path = ../../Code/HRThreadedTableViewController.h; sourceTree = "<group>"; };
+		C6984FE618DB62DD0003A227 /* HRThreadedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRThreadedTableViewController.m; path = ../../Code/HRThreadedTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6984FA918DB628F0003A227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FB218DB628F0003A227 /* CoreGraphics.framework in Frameworks */,
+				C6984FB418DB628F0003A227 /* UIKit.framework in Frameworks */,
+				C6984FB018DB628F0003A227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6984FC418DB628F0003A227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FC918DB628F0003A227 /* XCTest.framework in Frameworks */,
+				C6984FCB18DB628F0003A227 /* UIKit.framework in Frameworks */,
+				C6984FCA18DB628F0003A227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6984FA318DB628F0003A227 = {
+			isa = PBXGroup;
+			children = (
+				C6984FB518DB628F0003A227 /* HRThreadedTableViewControllerDemo */,
+				C6984FCE18DB628F0003A227 /* HRThreadedTableViewControllerDemoTests */,
+				C6984FAE18DB628F0003A227 /* Frameworks */,
+				C6984FAD18DB628F0003A227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6984FAD18DB628F0003A227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FAC18DB628F0003A227 /* HRThreadedTableViewControllerDemo.app */,
+				C6984FC718DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6984FAE18DB628F0003A227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FAF18DB628F0003A227 /* Foundation.framework */,
+				C6984FB118DB628F0003A227 /* CoreGraphics.framework */,
+				C6984FB318DB628F0003A227 /* UIKit.framework */,
+				C6984FC818DB628F0003A227 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6984FB518DB628F0003A227 /* HRThreadedTableViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FDE18DB62CB0003A227 /* HRThreadedTableViewController */,
+				C6984FBE18DB628F0003A227 /* HRAppDelegate.h */,
+				C6984FBF18DB628F0003A227 /* HRAppDelegate.m */,
+				C6984FC118DB628F0003A227 /* Images.xcassets */,
+				C6984FB618DB628F0003A227 /* Supporting Files */,
+			);
+			path = HRThreadedTableViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		C6984FB618DB628F0003A227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FB718DB628F0003A227 /* HRThreadedTableViewControllerDemo-Info.plist */,
+				C6984FB818DB628F0003A227 /* InfoPlist.strings */,
+				C6984FBB18DB628F0003A227 /* main.m */,
+				C6984FBD18DB628F0003A227 /* HRThreadedTableViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6984FCE18DB628F0003A227 /* HRThreadedTableViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FD418DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.m */,
+				C6984FCF18DB628F0003A227 /* Supporting Files */,
+			);
+			path = HRThreadedTableViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		C6984FCF18DB628F0003A227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FD018DB628F0003A227 /* HRThreadedTableViewControllerDemoTests-Info.plist */,
+				C6984FD118DB628F0003A227 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6984FDE18DB62CB0003A227 /* HRThreadedTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6984FDF18DB62DD0003A227 /* HRSectionHeaderView.h */,
+				C6984FE018DB62DD0003A227 /* HRSectionHeaderView.m */,
+				C6984FE118DB62DD0003A227 /* HRThreadedItem.h */,
+				C6984FE218DB62DD0003A227 /* HRThreadedItem.m */,
+				C6984FE318DB62DD0003A227 /* HRThreadedItemDataModel.h */,
+				C6984FE418DB62DD0003A227 /* HRThreadedItemDataModel.m */,
+				C6984FE518DB62DD0003A227 /* HRThreadedTableViewController.h */,
+				C6984FE618DB62DD0003A227 /* HRThreadedTableViewController.m */,
+			);
+			name = HRThreadedTableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6984FAB18DB628F0003A227 /* HRThreadedTableViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6984FD818DB62900003A227 /* Build configuration list for PBXNativeTarget "HRThreadedTableViewControllerDemo" */;
+			buildPhases = (
+				C6984FA818DB628F0003A227 /* Sources */,
+				C6984FA918DB628F0003A227 /* Frameworks */,
+				C6984FAA18DB628F0003A227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRThreadedTableViewControllerDemo;
+			productName = HRThreadedTableViewControllerDemo;
+			productReference = C6984FAC18DB628F0003A227 /* HRThreadedTableViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6984FC618DB628F0003A227 /* HRThreadedTableViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6984FDB18DB62900003A227 /* Build configuration list for PBXNativeTarget "HRThreadedTableViewControllerDemoTests" */;
+			buildPhases = (
+				C6984FC318DB628F0003A227 /* Sources */,
+				C6984FC418DB628F0003A227 /* Frameworks */,
+				C6984FC518DB628F0003A227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6984FCD18DB628F0003A227 /* PBXTargetDependency */,
+			);
+			name = HRThreadedTableViewControllerDemoTests;
+			productName = HRThreadedTableViewControllerDemoTests;
+			productReference = C6984FC718DB628F0003A227 /* HRThreadedTableViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6984FA418DB628F0003A227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Harry Richardson";
+				TargetAttributes = {
+					C6984FC618DB628F0003A227 = {
+						TestTargetID = C6984FAB18DB628F0003A227;
+					};
+				};
+			};
+			buildConfigurationList = C6984FA718DB628F0003A227 /* Build configuration list for PBXProject "HRThreadedTableViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6984FA318DB628F0003A227;
+			productRefGroup = C6984FAD18DB628F0003A227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6984FAB18DB628F0003A227 /* HRThreadedTableViewControllerDemo */,
+				C6984FC618DB628F0003A227 /* HRThreadedTableViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6984FAA18DB628F0003A227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FBA18DB628F0003A227 /* InfoPlist.strings in Resources */,
+				C6984FC218DB628F0003A227 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6984FC518DB628F0003A227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FD318DB628F0003A227 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6984FA818DB628F0003A227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FE718DB62DD0003A227 /* HRSectionHeaderView.m in Sources */,
+				C6984FE818DB62DD0003A227 /* HRThreadedItem.m in Sources */,
+				C6984FC018DB628F0003A227 /* HRAppDelegate.m in Sources */,
+				C6984FBC18DB628F0003A227 /* main.m in Sources */,
+				C6984FEA18DB62DD0003A227 /* HRThreadedTableViewController.m in Sources */,
+				C6984FE918DB62DD0003A227 /* HRThreadedItemDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6984FC318DB628F0003A227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6984FD518DB62900003A227 /* HRThreadedTableViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6984FCD18DB628F0003A227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6984FAB18DB628F0003A227 /* HRThreadedTableViewControllerDemo */;
+			targetProxy = C6984FCC18DB628F0003A227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6984FB818DB628F0003A227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6984FB918DB628F0003A227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6984FD118DB628F0003A227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6984FD218DB628F0003A227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6984FD618DB62900003A227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6984FD718DB62900003A227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6984FD918DB62900003A227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6984FDA18DB62900003A227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6984FDC18DB62900003A227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRThreadedTableViewControllerDemo.app/HRThreadedTableViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HRThreadedTableViewControllerDemoTests/HRThreadedTableViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6984FDD18DB62900003A227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HRThreadedTableViewControllerDemo.app/HRThreadedTableViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRThreadedTableViewControllerDemo/HRThreadedTableViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HRThreadedTableViewControllerDemoTests/HRThreadedTableViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6984FA718DB628F0003A227 /* Build configuration list for PBXProject "HRThreadedTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6984FD618DB62900003A227 /* Debug */,
+				C6984FD718DB62900003A227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6984FD818DB62900003A227 /* Build configuration list for PBXNativeTarget "HRThreadedTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6984FD918DB62900003A227 /* Debug */,
+				C6984FDA18DB62900003A227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6984FDB18DB62900003A227 /* Build configuration list for PBXNativeTarget "HRThreadedTableViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6984FDC18DB62900003A227 /* Debug */,
+				C6984FDD18DB62900003A227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6984FA418DB628F0003A227 /* Project object */;
+}
